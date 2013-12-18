@@ -57,7 +57,7 @@ Development
 grunt dev
 ```
 
-Will build the development instance into ./development. CSS and JS are not uglified or minified to help with debugging.
+Will build the development (self contained) instance into ./development. CSS and JS are not uglified or minified to help with debugging.
 
 Distribution
 ------------
@@ -66,8 +66,22 @@ Distribution
 grunt dist
 ```
 
-Will build the development instance into ./dist. CSS and JS are uglified and minified as appropraite
+Will build the production (self contained) instance into ./dist. CSS and JS are uglified and minified as appropriate
 
+
+Running
+-------
+
+Personaly I use [Nodejitsu's](https://www.nodejitsu.com/) [http-server](https://github.com/nodeapps/http-server) to run the instances. Effectivly a node version of python's SimpleHTTPServer.
+
+example:
+
+```
+cd development
+http-server
+```
+
+Now visit [http://localhost:8080](http://localhost:8080) or whatever port http-server says its running on
 
 
 
