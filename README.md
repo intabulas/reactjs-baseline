@@ -49,6 +49,7 @@ bower install
 
 Now Edit package.json and replace the content as you see fit. The grunt scripts use the 'name' from package.json for naming files (ie: css, js, etc)
 
+
 Development
 -----------
 

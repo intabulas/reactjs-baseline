@@ -28,7 +28,7 @@ module.exports = function (grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    'development/css/<%= pkg.name %>.css': ['src/sass/<%= pkg.name %>.scss']
+                    'development/css/<%= pkg.name %>.css': ['src/sass/application.scss']
                 }
                 },
             dist: {
@@ -36,7 +36,7 @@ module.exports = function (grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'dist/css/<%= pkg.name %>.css': ['src/sass/<%= pkg.name %>.scss']
+                    'dist/css/<%= pkg.name %>.css': ['src/sass/application.scss']
                 }
             }
         },
