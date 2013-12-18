@@ -1,0 +1,24 @@
+{
+  "name": "\"name\": \"reactjs-baseline\",",
+  "version": "0.0.0",
+  "authors": [
+    "Mark Lussier <mlussier@gmail.com>"
+  ],
+  "description": "Opinionated starting point boilerplate for buiding amazing things with ReactJS",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zepto": "~1.0.0",
+    "react": "~0.5.1",
+    "director": "~1.2.1",
+    "normalize-css": "~2.1.3"
+  }
+}

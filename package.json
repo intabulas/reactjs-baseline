@@ -1,0 +1,41 @@
+{
+  "name": "reactjs-baseline",
+  "version": "0.0.0",
+  "description": "Opinionated starting point boilerplate for buiding amazing things with ReactJS",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intabulas/reactjs-baseline"
+  },
+  "author": "Mark Lussier <mlussier@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/intabulas/reactjs-baseline",
+  "bugs": {
+    "url": "https://github.com/intabulas/reactjs-baseline/issues"
+  },
+  "keywords": [
+    "reactjs",
+    "baseline"
+  ],
+  "dependencies": {
+    "react-tools": "~0.5.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "load-grunt-tasks": "0.2.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-browserify": "~1.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-uglify": "0.2.7",
+    "grunt-contrib-sass": "0.6.0",
+    "grunt-asciify": "0.2.2",
+    "grunt-contrib-cssmin": "0.7.0",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-replace": "0.5.1",
+    "reactify": "~0.4.0"
+  }
+}
