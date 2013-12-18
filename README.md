@@ -83,10 +83,21 @@ http-server
 
 Now visit [http://localhost:8080](http://localhost:8080) or whatever port http-server says its running on
 
+Other Things
+------------
+
+To run [JSXhint](https://github.com/CondeNast/JSXHint) over your code, just do 
+
+```
+npm run jsxhint
+```
 
 Todos
 -----
 
-1. Integrate [JSXHint](https://github.com/CondeNast/JSXHint)
-
+1. Concat vendor js into a single file
+2. ~~Integrate [JSXHint](https://github.com/CondeNast/JSXHint)~~
+3. Add some tests
+4. Use pkg.version when naming files
+5. Shift to using reactjs out of [react-tools](https://npmjs.org/package/react-tools)
 

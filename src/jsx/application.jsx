@@ -6,9 +6,9 @@ var Application = React.createClass({
     componentDidMount: function() {
     },
     render: function() {
-    return (
-        <h1>Hello World</h1>
-    );
+        return (
+            <h1>Hello World</h1>
+        );
     }
 });
 
