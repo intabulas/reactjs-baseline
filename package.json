@@ -1,6 +1,6 @@
 {
   "name": "reactjs-baseline",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Opinionated starting point boilerplate for buiding amazing things with ReactJS",
   "main": "index.js",
   "private": true,

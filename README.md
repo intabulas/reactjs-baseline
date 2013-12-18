@@ -1,9 +1,9 @@
 Opinionated Baseeline for ReactJS Projects
 ==========================================
 
-** this is a living work in progress, please keep that in mind **
+**this is a living work in progress, please keep that in mind**
 
-As I do more and more projects with [ReactJS](http://facebook.github.io/react/) I started to extract a baseline to use when starting new projects. This is **very** opinionated and I change my opinion from time to time. This is by no ways perfect and in **your** opinion most likely wrong :).. which is why I love github
+As I do more projects with [ReactJS](http://facebook.github.io/react/) I started to extract a baseline to use when starting new projects. This is **very** opinionated and I change my opinion from time to time. This is by no ways perfect and in **your** opinion most likely wrong :).. which is why I love github
 
 I encourage you to fork, and make it *right* and submit a pull request!
 
@@ -12,7 +12,7 @@ My current opinion is using tools like [Grunt](http://gruntjs.com/), [Browserify
 How to Use
 ----------
 
-Given the tool chain I haev outlined above, you need the following things installed. I wont bother instructing you how, I am sure you know or already have what is needed
+Given the tool chain I have outlined above, you need the following things installed. I wont bother instructing you how, I am sure you know or already have what is needed
 
 1. [NodeJS](http://nodejs.org/) 
 2. [NPM](http://npmjs.org)  (*some node distro's include this*)
@@ -84,5 +84,9 @@ http-server
 Now visit [http://localhost:8080](http://localhost:8080) or whatever port http-server says its running on
 
 
+Todos
+-----
+
+1. Integrate [JSXHint](https://github.com/CondeNast/JSXHint)
 
 
