@@ -101,3 +101,9 @@ Todos
 4. Use pkg.version when naming files
 5. Shift to using reactjs out of [react-tools](https://npmjs.org/package/react-tools)
 
+Contributors
+------------
+
+Since no man is an island, the evolution of this baseline occurs not only as I change my opinions and extract more baseline, but with the wonderful help of the ReactJS community. So far these include
+
+* [Regis Daidot](https://github.com/rgaidot)
