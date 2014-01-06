@@ -1,4 +1,4 @@
-Opinionated Baseeline for ReactJS Projects
+Opinionated Baseline for ReactJS Projects
 ==========================================
 
 **this is a living work in progress, please keep that in mind**
