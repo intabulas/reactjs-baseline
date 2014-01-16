@@ -3,6 +3,17 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+        connect: {
+          dev: {
+            options: {
+              port: 9000,
+              livereload: true,
+              base: 'development',
+              open: 'http://localhost:9000'
+            }
+          }
+        },
+
         browserify: {
             options: {
                 transform: ['reactify'],
@@ -142,15 +153,18 @@ module.exports = function (grunt) {
         },
 
         watch: {
+            options: {
+              livereload: true,
+            },
             files: [ "src/**/*.jsx", 'src/**/*.scss', 'src/*.html'],
-            tasks: [ 'default' ]
+            tasks: [ 'devBuild' ]
         },
 
   });
 
   require('load-grunt-tasks')(grunt);
 
-  grunt.registerTask('dev', [
+  grunt.registerTask('devBuild', [
     'clean:dev',
     'copy:dev',
     'replace:dev',
@@ -158,6 +172,11 @@ module.exports = function (grunt) {
     'asciify',
     'sass:dev',
     'cssmin:dev',
+  ]);
+
+  grunt.registerTask('dev', [
+    'devBuild',
+    'connect:dev',
     'watch'
   ]);
 
