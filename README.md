@@ -72,6 +72,9 @@ Will build the production (self contained) instance into ./dist. CSS and JS are 
 Running
 -------
 
+**Update** Thanks to [FWeinb](https://github.com/FWeinb) doing a simple ```grunt``` will perform a development build, launch a little connect based server and wire up live reload. I recomend this approach now!
+
+
 Personaly I use [Nodejitsu's](https://www.nodejitsu.com/) [http-server](https://github.com/nodeapps/http-server) to run the instances. Effectivly a node version of python's SimpleHTTPServer.
 
 example:
@@ -107,3 +110,4 @@ Contributors
 Since no man is an island, the evolution of this baseline occurs not only as I change my opinions and extract more baseline, but with the wonderful help of the ReactJS community. So far these include
 
 * [Regis Daidot](https://github.com/rgaidot)
+* [FWeinb](https://github.com/FWeinb)
